@@ -1,4 +1,5 @@
 <?php
+
 class Spacer
 {
     private $JOINER = "‍";
@@ -63,10 +64,5 @@ class Spacer
 
         return $this->toString($binary);
     }
-
 }
-
-
-
-
 ?>
