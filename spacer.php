@@ -13,7 +13,6 @@ class Spacer
         $binary = unpack('H*', $txt);
         return base_convert($binary[1], 16, 2);
     }
-
     
     protected function toString($binary)
     {
@@ -35,7 +34,6 @@ class Spacer
                 $final .= $this->SPACE;
             }
         }
-
 
         if (empty($msg)) {
             return $final;
